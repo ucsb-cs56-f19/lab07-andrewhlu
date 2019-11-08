@@ -1,3 +1,15 @@
+# lab07-andrewhlu
+
+Andrew Lu ([andrewhlu](https://github.com/andrewhlu))
+
+CS 56 F19, Thurs 5p
+
+GitHub Repo: [https://github.com/ucsb-cs56-f19/lab07-andrewhlu](https://github.com/ucsb-cs56-f19/lab07-andrewhlu)
+
+Javadoc: [https://ucsb-cs56-f19.github.io/lab07-andrewhlu/](https://ucsb-cs56-f19.github.io/lab07-andrewhlu/)
+
+---
+
 A simple Spring Boot webapp using:
 * Thymeleaf templating
 * Pulling in Bootstrap from CDN.
