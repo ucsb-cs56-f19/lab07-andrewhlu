@@ -8,6 +8,8 @@ GitHub Repo: [https://github.com/ucsb-cs56-f19/lab07-andrewhlu](https://github.c
 
 Javadoc: [https://ucsb-cs56-f19.github.io/lab07-andrewhlu/](https://ucsb-cs56-f19.github.io/lab07-andrewhlu/)
 
+Heroku App: [https://cs56-f19-lab07-andrewhlu.herokuapp.com/](https://cs56-f19-lab07-andrewhlu.herokuapp.com/)
+
 ---
 
 A simple Spring Boot webapp using:
