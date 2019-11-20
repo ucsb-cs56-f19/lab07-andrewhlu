@@ -44,7 +44,6 @@ public class HomePageTest {
                 .andExpect(content().contentType("text/html;charset=UTF-8"));
     }
 
-
     @Test
     public void getHomePage_BootstrapLoaded() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.TEXT_HTML))
@@ -57,7 +56,6 @@ public class HomePageTest {
               .andExpect(xpath(jsXPath).exists());
         }
     }
-
 
     @Test
     public void getHomePage_hasCorrectTitle() throws Exception {
@@ -73,5 +71,13 @@ public class HomePageTest {
                 .andExpect(status().isOk())
                 .andExpect(xpath("//html/body/div/nav/a").exists())
                 .andExpect(xpath("//html/body/div/nav/a").string("lab07"));
+    }
+
+    @Test
+    public void getHomePage_hasCorrectPageTitle() throws Exception {
+        mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.TEXT_HTML))
+                .andExpect(status().isOk())
+                .andExpect(xpath("//html/body/div/nav/div/ul/li[2]/a").exists())
+                .andExpect(xpath("//html/body/div/nav/div/ul/li[2]/a").string("Earthquakes"));
     }
 }
