@@ -10,6 +10,8 @@ Javadoc: [https://ucsb-cs56-f19.github.io/lab07-andrewhlu/](https://ucsb-cs56-f1
 
 Heroku App: [https://cs56-f19-lab07-andrewhlu.herokuapp.com/](https://cs56-f19-lab07-andrewhlu.herokuapp.com/)
 
+Travis CI: [https://travis-ci.org/ucsb-cs56-f19/lab07-andrewhlu/](https://travis-ci.org/ucsb-cs56-f19/lab07-andrewhlu/)
+
 ---
 
 A simple Spring Boot webapp using:
